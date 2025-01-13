@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    
+}
+header{
+    position: sticky;
+    top: 0%;
+    background-color: rgb(236, 216, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    gap: 30px;
+    display: flex;
+    list-style: none;
+}
+.fa-solid {
+    display: none;
+}
+
+
+
+
+
+/*firstsection*/
+.bb {
+    display: flex;
+    flex-direction: row;
+}
+.music{
+    padding-bottom:30px;
+    padding-top: 40px;
+    background-color:rgba(238, 110, 50, 0.911);
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+}
+.dj{
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: rgb(207, 126, 19);
+    color: rgb(226, 24, 17);
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(241, 7, 7);
+    color:transparent
+}
+
+
+
+
+/*secondsection*/
+.parent{
+    
+    display: flex;
+    gap: 10px;
+}
+.about{
+    padding: 20px;
+    background-color: rgb(211, 136, 24);
+    font-size: medium;
+    font-style: oblique;
+}
+.dd{
+    padding: 20px;
+    padding-bottom: 60px;
+    padding-top: 70px;
+    background-color: rgb(124, 92, 4);
+    text-align: center;
+}
+.dj{
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: rgb(207, 126, 19);
+    color: rgb(226, 24, 17);
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(241, 7, 7);
+    color:transparent
+}
+
+
+
+.blog{
+    background-color: rgb(218, 167, 102);
+    text-align: center;
+    padding: 30px;
+    padding-top: 50px;
+}
+.all{
+    font-size: xx-large;
+    color: brown;
+}
+
+
+
+
+.mom{
+    text-align: center;
+    background-color: rgb(219, 112, 35);
+    padding: 20px;
+    padding-bottom: 65px;
+    padding-top: 65px;
+}
+.coke{
+    text-align: center;
+    background-color: rgb(218, 103, 22);
+    padding: 20px;
+    padding-bottom: 65px;
+    padding-top: 65px;
+}
+
+
+.dj{
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: rgb(207, 126, 19);
+    color: rgb(226, 24, 17);
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(241, 7, 7);
+    color:transparent
+}
+body{
+    background-image: url(./image/IMG-20241015-WA0001.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+    header .fa-solid {
+        display: block;
+    }	
+
+    nav {
+        width: 50%;
+        position: fixed;
+        top: 0;
+        height: 100%;
+        background-color: cyan;
+        right: -50%;
+        transition: 2s;
+
+a{
+    text-decoration: none;
+}	
+
+img {
+    width: 100%;
+}
+a {
+    color: brown;
+}
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    li {
+        padding: 20px;
+    }
+    header{
+        background-color: rgb(241, 171, 145);
+    }
+    .dj{
+        background-color: rgb(230, 131, 96);
+    }
+    .coke{
+        background-color: rgb(227, 243, 243);
+    }
+    .mom{
+        background-color: bisque;
+    }
+    .blog{
+        background-color: rgb(164, 216, 209);
+    }
+    body{
+        background-color: rgb(231, 141, 4);
+    }
+    .about{
+        background-color: bisque;
+    }
+
+    .dd{
+        background-color:rgb(238, 240, 236) ;
+    }
+    .music{
+        background-color: darkgoldenrod;
+    }
+    .bb{
+        flex-direction: column;
+    }
+    
+}
+
